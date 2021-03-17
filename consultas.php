@@ -4,7 +4,7 @@ include_once("conexao.php");
 
 $filtro = isset($_GET['filtro'])?$_GET['filtro']:"";
 
-$sql = "SELECT * FROM usuarios WHERE curso like '%$filtro%' ";
+$sql = "SELECT * FROM usuarios WHERE curso like '%$filtro%' ORDER BY nome ";
 $consulta = mysqli_query($conexao, $sql);
 $registros = mysqli_num_rows($consulta);
 

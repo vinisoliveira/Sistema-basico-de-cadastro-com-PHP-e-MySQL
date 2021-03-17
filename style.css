@@ -15,8 +15,8 @@ body {
 }
 
 .container {
-    margin: auto;
-    width: 1200px;
+    margin: 50px;
+    width: 100%;
     margin-top: 20px;
     padding: 10px;
 }
@@ -78,3 +78,4 @@ article {
     background-color: #d6d5d5;
     margin-bottom: 5px;
 }
+

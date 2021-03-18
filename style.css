@@ -15,8 +15,8 @@ body {
 }
 
 .container {
-    margin: 50px;
-    width: 100%;
+    margin: auto;
+    width: 1200px;
     margin-top: 20px;
     padding: 10px;
 }
@@ -31,7 +31,7 @@ nav {
 }
 
 section {
-    width: 870px;
+    width: 850px;
     height: 500px;
     margin-left: 10px;
     float: left;
@@ -74,9 +74,11 @@ ul.menu li {
 }
 
 .imgbody {
+    display: none;
     position:absolute;
 	top:0;
     right: 0;
+    width: 100%;
     height: 350px;
     margin-right: 150px;
     margin-top: 150px;
